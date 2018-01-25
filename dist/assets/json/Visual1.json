@@ -1,0 +1,41 @@
+[{
+    "id": 1,
+    "name": "Visual round",
+    "description": "visual based quiz",
+    "questions": [{
+            "qNo": 1,
+            "name": "Identify the animal in the picture?",
+            "path": "dog.jpg",
+            "options": [{
+                    "name": "Horse",
+                    "isAnswer": false
+                },
+                {
+                    "name": "Cat",
+                    "isAnswer": false
+                },
+                {
+                    "name": "Dog",
+                    "isAnswer": true
+                }
+            ]
+        },
+        {
+            "qNo": 2,
+            "name": "How many legs the Lion have?",
+            "path": "lion.png",
+            "options": [{
+                    "name": "1",
+                    "isAnswer": false
+                },
+                {
+                    "name": "2",
+                    "isAnswer": false
+                },
+                {
+                    "name": "4",
+                    "isAnswer": true
+                }
+            ]
+        }]
+}]

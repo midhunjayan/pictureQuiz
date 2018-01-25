@@ -1,0 +1,8 @@
+<h2 class="section-heading">{{quizTitle}} round</h2>
+<section class="content-wrapper" *ngIf="isRendered">
+  <h3 class="question">{{currentQuestion.name}}</h3>
+  <app-image [imageDetails]="currentQuestion"></app-image>
+  <ul class="options-wrapper">
+    <li *ngFor="let op of currentQuestion.options" (click)="selectAnswer(op)">{{op.name}}</li>
+  </ul>
+</section>

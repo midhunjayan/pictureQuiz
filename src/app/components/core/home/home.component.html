@@ -1,0 +1,10 @@
+<div class="content-wrapper">
+  <ul>
+    <li *ngFor="let test of testList" (click)="goToQuiz(test.id)">
+      <img [src]="test.image" alt="television">
+      <div class="middle">
+        <div class="text">{{test.name}}</div>
+      </div>
+    </li>
+  </ul>
+</div>
