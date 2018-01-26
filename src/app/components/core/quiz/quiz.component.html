@@ -1,7 +1,9 @@
+<img src="../../../assets/img/back.png" class="back-button" width="30" height="30" [routerLink]="['/home']">
 <h2 class="section-heading">{{quizTitle}} round</h2>
 <section class="content-wrapper" *ngIf="isRendered">
   <h3 class="question">{{currentQuestion.name}}</h3>
-  <app-image [imageDetails]="currentQuestion"></app-image>
+  <app-image [imageDetails]="currentQuestion" *ngIf="allData.id==1"></app-image>
+  <app-audio [audioDetails]="currentQuestion" *ngIf="allData.id==2"></app-audio>
   <ul class="options-wrapper">
     <li *ngFor="let op of currentQuestion.options" (click)="selectAnswer(op)">{{op.name}}</li>
   </ul>

@@ -2,13 +2,13 @@ import { Component, OnInit, Input, OnChanges, SimpleChanges } from '@angular/cor
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-image',
-  templateUrl: 'image.component.html',
-  styleUrls: ['image.component.scss'],
+  selector: 'app-audio',
+  templateUrl: 'audio.component.html',
+  styleUrls: ['audio.component.scss'],
 })
 
-export class ImageComponent implements OnInit, OnChanges  {
-  @Input() imageDetails: any;
+export class AudioComponent implements OnInit, OnChanges  {
+  @Input() audioDetails: any;
 
   public url: string;
 
@@ -16,7 +16,7 @@ export class ImageComponent implements OnInit, OnChanges  {
   }
 
   ngOnInit() {
-    this.url = '../../../assets/img/'+this.imageDetails.path;
+    this.url = '../../../assets/audio/'+this.audioDetails.path;
   }
 
    ngOnChanges(changes: SimpleChanges) {
@@ -30,6 +30,6 @@ export class ImageComponent implements OnInit, OnChanges  {
   }
 
   newChange(val: any){
-    this.url = '../../../assets/img/'+this.imageDetails.path;
+    this.url = '../../../assets/audio/'+this.audioDetails.path;
   }
 }

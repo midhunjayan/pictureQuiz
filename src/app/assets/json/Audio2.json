@@ -1,211 +1,41 @@
 [{
-    "id": 3,
-    "name": "Asp.Net Quiz",
-    "description": "Asp.Net Quiz (contains webform, mvc, web API, etc.)",
+    "id": 2,
+    "name": "Audio round",
+    "description": "Audio based quiz",
     "questions": [{
             "qNo": 1,
-            "name": "ASP.NET webform separates the HTML output from program logic using a feature named as",
-            "questionType": 1,
+            "name": "Which animal?",
+            "path": "horse.ogg",
             "options": [{
-                    "name": "Exception",
-                    "isAnswer": false
-                },
-                {
-                    "name": "Code-behind",
+                    "name": "Horse",
                     "isAnswer": true
                 },
                 {
-                    "name": "Code-front",
+                    "name": "Cat",
                     "isAnswer": false
                 },
                 {
-                    "name": "Multiple Choice",
-                    "isAnswer": false
+                    "name": "Dog",
+                    "isAnswer": true
                 }
             ]
         },
         {
             "qNo": 2,
-            "name": "The feature in ASP.NET 2.0 that is used to fire a normal postback to a different page in the application is called",
-            "questionType": 1,
+            "name": "Who is barking there?",
+            "path": "dog.ogg",
             "options": [{
-                    "name": "Theme",
+                    "name": "Cat",
                     "isAnswer": false
                 },
                 {
-                    "name": "Code-front",
+                    "name": "Cheetah",
                     "isAnswer": false
                 },
                 {
-                    "name": "Cross Page Posting",
-                    "isAnswer": true
-                },
-                {
-                    "name": "None of the above",
-                    "isAnswer": false
-                }
-            ]
-        },
-        {
-            "qNo": 3,
-            "name": "What does MVC stand for?",
-            "questionType": 3,
-            "answer": "Model View Controller",
-            "userAnswer": ""
-        },
-        {
-            "qNo": 4,
-            "name": "What class does the ASP.NET Web Form class inherit from by default?",
-            "questionType": 1,
-            "options": [{
-                    "name": "System.Web.UI.Page",
-                    "isAnswer": true
-                },
-                {
-                    "name": "System.Web.UI.Form",
-                    "isAnswer": false
-                },
-                {
-                    "name": "System.Web.GUI.Page",
-                    "isAnswer": false
-                },
-                {
-                    "name": "System.Web.Form",
-                    "isAnswer": false
-                }
-            ]
-        },
-        {
-            "qNo": 5,
-            "name": "Which of the following does NOT require type casting?",
-            "questionType": 1,
-            "options": [{
-                    "name": "Session",
-                    "isAnswer": false
-                },
-                {
-                    "name": "TempData",
-                    "isAnswer": false
-                },
-                {
-                    "name": "ViewData",
-                    "isAnswer": false
-                },
-                {
-                    "name": "ViewBag",
+                    "name": "Dog",
                     "isAnswer": true
                 }
             ]
-        },
-        {
-            "qNo": 6,
-            "name": "Which is the correct order of Page life-cycle in asp.net webform?",
-            "questionType": 1,
-            "options": [{
-                    "name": "Init, PreRender, Load",
-                    "isAnswer": false
-                },
-                {
-                    "name": "Load, PreRender, Init",
-                    "isAnswer": false
-                },
-                {
-                    "name": "Init, Load, PreRender",
-                    "isAnswer": true
-                },
-                {
-                    "name": "None of the above",
-                    "isAnswer": false
-                }
-            ]
-        },
-        {
-            "qNo": 7,
-            "name": "Which of these data source controls do not implement caching?",
-            "questionType": 1,
-            "options": [{
-                    "name": "ObjectDataSource",
-                    "isAnswer": false
-                },
-                {
-                    "name": "LinqDataSource",
-                    "isAnswer": true
-                },
-                {
-                    "name": "SqlDataSource",
-                    "isAnswer": false
-                },
-                {
-                    "name": "XmlDataSource",
-                    "isAnswer": false
-                }
-            ]
-        },
-        {
-            "qNo": 8,
-            "name": "Which tag asp:Label control by default renders to?",
-            "questionType": 1,
-            "options": [{
-                    "name": "div",
-                    "isAnswer": false
-                },
-                {
-                    "name": "span",
-                    "isAnswer": true
-                },
-                {
-                    "name": "body",
-                    "isAnswer": false
-                },
-                {
-                    "name": "label",
-                    "isAnswer": false
-                }
-            ]
-        },
-        {
-            "qNo": 9,
-            "name": "Which method do you use to explicitly kill a user's session?",
-            "questionType": 1,
-            "options": [{
-                    "name": "Session.Terminate()",
-                    "isAnswer": false
-                },
-                {
-                    "name": "Session.TimeOut()",
-                    "isAnswer": false
-                },
-                {
-                    "name": "Session.Abondon()",
-                    "isAnswer": true
-                },
-                {
-                    "name": "Session.Kill()",
-                    "isAnswer": false
-                }
-            ]
-        },
-        {
-            "qNo": 10,
-            "name": "Which of the following object is ideal for keeping data alive for a single request?",
-            "questionType": 1,
-            "options": [{
-                    "name": "HttpContext",
-                    "isAnswer": true
-                },
-                {
-                    "name": "Session",
-                    "isAnswer": false
-                },
-                {
-                    "name": "Cookies",
-                    "isAnswer": false
-                },
-                {
-                    "name": "SqlServer",
-                    "isAnswer": false
-                }
-            ]
-        }
-    ]
+        }]
 }]
