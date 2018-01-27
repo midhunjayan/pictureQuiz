@@ -1,14 +1,21 @@
 .footer {
-	background-color: #fff;
-	bottom: 0;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-	height: 60px;
-	position: absolute;
-	width: 100%;
-	background: url("../../../assets/img/f2.png");
+    background-color: #fff;
+    bottom: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    height: 60px;
+    position: absolute;
+    width: 100%;
+    background: url("../../../assets/img/f2.png");
 
-	.footer-block {
-		color: rgba(0, 0, 0, 0.5);
-		margin: 20px 0;
-	}
+    .container {
+        width: 100%;
+        p {
+            text-align: center;
+        }
+    }
+
+    .footer-block {
+        color: rgba(0, 0, 0, 0.5);
+        margin: 20px 0;
+    }
 }

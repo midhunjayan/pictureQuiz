@@ -20,13 +20,14 @@ export class ImageComponent implements OnInit, OnChanges  {
   }
 
    ngOnChanges(changes: SimpleChanges) {
-    for (let propName in changes) {  
-        let change = changes[propName];
+     this.url = '../../../assets/img/'+this.imageDetails.path;
+    // for (let propName in changes) {  
+    //     let change = changes[propName];
         
-        let curVal  = JSON.stringify(change.currentValue);
-        let prevVal = JSON.stringify(change.previousValue);
-       this.newChange(curVal);
-    }
+    //     let curVal  = JSON.stringify(change.currentValue);
+    //     let prevVal = JSON.stringify(change.previousValue);
+    //    this.newChange(curVal);
+    // }
   }
 
   newChange(val: any){

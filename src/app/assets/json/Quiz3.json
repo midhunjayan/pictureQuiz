@@ -1,99 +1,92 @@
-[{
-    "id": 1,
-    "name": "Visual round",
-    "description": "visual based quiz",
-    "questions": [{
-            "qNo": 1,
-            "name": "Identify the animal in the picture?",
-            "path": "dog.jpg",
-            "options": [{
-                    "name": "Horse",
-                    "isAnswer": false
-                },
-                {
-                    "name": "Cat",
-                    "isAnswer": false
-                },
-                {
-                    "name": "Dog",
-                    "isAnswer": true
-                }
-            ]
+[
+{
+    "id": 3,
+    "name": "Quiz round",
+    "description": "quiz based quiz",
+    "questions": [
+    {
+        "qNo": 1,
+        "name": "If I have 3 apples, and John gives me 2, how many apples do I have now??",
+        "options": [
+        {
+            "name": "3",
+            "isAnswer": false
         },
         {
-            "qNo": 2,
-            "name": "How many legs the Lion have?",
-            "path": "lion.png",
-            "options": [{
-                    "name": "1",
-                    "isAnswer": false
-                },
-                {
-                    "name": "2",
-                    "isAnswer": false
-                },
-                {
-                    "name": "4",
-                    "isAnswer": true
-                }
-            ]
+            "name": "4",
+            "isAnswer": false
         },
         {
-            "qNo": 3,
-            "name": "Identify the fruit?",
-            "path": "lime.jpg",
-            "options": [{
-                    "name": "Lime",
-                    "isAnswer": true
-                },
-                {
-                    "name": "Mango",
-                    "isAnswer": false
-                },
-                {
-                    "name": "Apple",
-                    "isAnswer": false
-                }
-            ]
-        },
-    {
-            "qNo": 4,
-            "name": "Identify the shape?",
-            "path": "circle.jpg",
-            "options": [{
-                    "name": "Square",
-                    "isAnswer": false
-                },
-                {
-                    "name": "Cirlce",
-                    "isAnswer": true
-                },
-                {
-                    "name": "Triangle",
-                    "isAnswer": false
-                }
-            ]
-        },
-    {
-            "qNo": 5,
-            "name": "Find odd one out?",
-            "path": "oddone.jpg",
-            "options": [{
-                    "name": "A",
-                    "isAnswer": true
-                },
-                {
-                    "name": "B",
-                    "isAnswer": false
-                },
-                {
-                    "name": "C",
-                    "isAnswer": false
-                },
-                {
-                    "name": "D",
-                    "isAnswer": false
-                }
-            ]
+            "name": "5",
+            "isAnswer": true
         }]
+    },
+    {
+        "qNo": 2,
+        "name": "Clair goes to school on Monday, Tuesday, Wednesday, Thursday, and Friday. How many days does she go to school?",
+        "options": [
+        {
+            "name": "7",
+            "isAnswer": false
+        },
+        {
+            "name": "6",
+            "isAnswer": false
+        },
+        {
+            "name": "5",
+            "isAnswer": true
+        }]
+    },
+    {
+        "qNo": 3,
+        "name": "What do dogs like to eat?",
+        "options": [
+        {
+            "name": "Bones",
+            "isAnswer": false
+        },
+        {
+            "name": "Dog Food",
+            "isAnswer": false
+        },
+        {
+            "name": "Both the answers",
+            "isAnswer": true
+        }]
+    },
+    {
+        "qNo": 4,
+        "name": "What is one thing all living things need??",
+        "options": [
+        {
+            "name": "Sunglasses",
+            "isAnswer": false
+        },
+        {
+            "name": "Water",
+            "isAnswer": true
+        },
+        {
+            "name": "Mobile phone",
+            "isAnswer": false
+        }]
+    },
+    {
+        "qNo": 5,
+        "name": "What do caterpillars become??",
+        "options": [
+        {
+            "name": "An elephant",
+            "isAnswer": false
+        },
+        {
+            "name": "A dolfin",
+            "isAnswer": false
+        },
+        {
+            "name": "A butterfly",
+            "isAnswer": true
+        }]
+    }]
 }]

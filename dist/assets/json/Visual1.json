@@ -37,5 +37,63 @@
                     "isAnswer": true
                 }
             ]
+        },
+        {
+            "qNo": 3,
+            "name": "Identify the fruit?",
+            "path": "lime.jpg",
+            "options": [{
+                    "name": "Lime",
+                    "isAnswer": true
+                },
+                {
+                    "name": "Mango",
+                    "isAnswer": false
+                },
+                {
+                    "name": "Apple",
+                    "isAnswer": false
+                }
+            ]
+        },
+    {
+            "qNo": 4,
+            "name": "Identify the shape?",
+            "path": "circle.jpg",
+            "options": [{
+                    "name": "Square",
+                    "isAnswer": false
+                },
+                {
+                    "name": "Cirlce",
+                    "isAnswer": true
+                },
+                {
+                    "name": "Triangle",
+                    "isAnswer": false
+                }
+            ]
+        },
+    {
+            "qNo": 5,
+            "name": "Find odd one out?",
+            "path": "oddone.jpg",
+            "options": [{
+                    "name": "A",
+                    "isAnswer": true
+                },
+                {
+                    "name": "B",
+                    "isAnswer": false
+                },
+                {
+                    "name": "C",
+                    "isAnswer": false
+                },
+                {
+                    "name": "D",
+                    "isAnswer": false
+                }
+            ]
         }]
 }]

@@ -1,41 +1,43 @@
-[{
+[
+{
     "id": 2,
     "name": "Audio round",
     "description": "Audio based quiz",
-    "questions": [{
-            "qNo": 1,
-            "name": "Which animal?",
-            "path": "horse.ogg",
-            "options": [{
-                    "name": "Horse",
-                    "isAnswer": true
-                },
-                {
-                    "name": "Cat",
-                    "isAnswer": false
-                },
-                {
-                    "name": "Dog",
-                    "isAnswer": true
-                }
-            ]
+    "questions": [
+    {
+        "qNo": 1,
+        "name": "Which animal?",
+        "path": "horse.ogg",
+        "options": [
+        {
+            "name": "Horse",
+            "isAnswer": true
         },
         {
-            "qNo": 2,
-            "name": "Who is barking there?",
-            "path": "dog.ogg",
-            "options": [{
-                    "name": "Cat",
-                    "isAnswer": false
-                },
-                {
-                    "name": "Cheetah",
-                    "isAnswer": false
-                },
-                {
-                    "name": "Dog",
-                    "isAnswer": true
-                }
-            ]
+            "name": "Cat",
+            "isAnswer": false
+        },
+        {
+            "name": "Dog",
+            "isAnswer": true
         }]
+    },
+    {
+        "qNo": 2,
+        "name": "Who is barking there?",
+        "path": "dog.ogg",
+        "options": [
+        {
+            "name": "Cat",
+            "isAnswer": false
+        },
+        {
+            "name": "Cheetah",
+            "isAnswer": false
+        },
+        {
+            "name": "Dog",
+            "isAnswer": true
+        }]
+    }]
 }]
